@@ -1,0 +1,84 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+  min-height: 10vh;
+  background-color: rgb(73, 83, 87);
+  color: white;
+}
+
+.links {
+  list-style: none;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-section {
+  background: hotpink;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.col {
+  min-height: 90vh;
+}
+.col2 {
+  background-color: #171923;
+  color: white;
+}
+
+.col2 h1 {
+  margin-top: 50%;
+}
+.col2-btn {
+  cursor: pointer;
+  padding: 10px;
+  border-width: 0;
+  background-color: #2d3748;
+  color: white;
+  outline: none;
+  border-radius: 5px;
+  font-size: 18px;
+  letter-spacing: 1.4px;
+  width: 170px;
+  appearance: none;
+  line-height: 1.2;
+}
+
+.col2-btn:hover {
+  background-color: green;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.col2-btn:focus {
+  outline-color: rgb(0, 195, 255);
+  outline-style: auto;
+  outline-width: 1px;
+}
+
+.col-btn:active {
+  background: blue;
+}
+
+.col1 {
+  background-image: url('../images/lebron-poster_files/1204697.jpg');
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-position: center;
+}

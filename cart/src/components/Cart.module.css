@@ -1,0 +1,26 @@
+.table-container {
+  text-align: center;
+  width: 100%;
+  border: 1px solid green;
+}
+table {
+  text-align: left;
+  width: 50%;
+  margin: 0 auto;
+  border-spacing: 20px 5px;
+}
+
+tr {
+  display: table-row;
+  text-align: center;
+  padding: 2px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+td,
+th {
+  width: auto;
+  text-align: left;
+  max-height: 100px;
+  padding: 9px 12px;
+}
